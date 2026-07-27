@@ -16,67 +16,151 @@
 
     <body>
 
-    <!-- Navigation Bar -->
-    <header>
-        <nav class="navbar">
-            <a href="index.html" class="logo">TKD</a>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-            </ul>
+        <!-- Navigation Bar -->
+        <header>
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <img src="images/Logo.png" alt="Logo">
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
 
-            <a href="join.html" class="join-button">Join Us</a>
+                <a href="join.html" class="join-button">Join Us</a>
 
-        </nav>
-    </header>
+            </nav>
+        </header>
 
-    <!-- Parallax Container & Hero Section -->
+        <!-- Parallax Container & Hero Section -->
+        <section class="hero">
+            <!-- Background Image -->
+            <img src="images/uhh idk.png" alt="Taekwondo Training" class="hero-img">
 
-    <section class="hero">
-        <div class="hero-overlay">
-            <h1>insert text here</h1>
-            <p>
-                insert text here
-            </p>
-            <a href="join.html" class="hero-button">Join Us</a>
+            <!-- Dark Tint Overlay -->
+            <div class="hero-tint"></div>
 
-        </div>
-
-    </section>
-
-    <!--Why join us Container-->
-    
-    <section class="why-join-us">
-        <h1> WHy Join Us</h1>
-
-        <div class="why-join-us-container">
-
-            <div class="why-join-us-item">
-                <h2>insert text here</h2>
-                <p>insert text here</p>
+            <!-- Content Layer (Text / Buttons) -->
+            <div class="hero-content">
+                <h2>Welcome to TKD</h2>
+                <a href="join.html" class="hero-button">Join Us</a>
             </div>
+        </section>
 
-            <div class="why-join-us-item">
-                <h2>insert text here</h2>
-                <p>insert text here</p>
-            </div>
 
-            <div class="why-join-us-item">
-                <h2>insert text here</h2>
-                <p>insert text here</p>
-            </div>
-
-        </div>
-    </section>
-
-        <!--Upcoming Events-->
-
+        <!--Why join us Container-->
+        <section class="why-join-us">
+            <h2 class="section-title">Why Join Us?</h2>
         
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Discipline</h3>
+                    <p>Develop focus, self-control, and physical strength through structured traditional Taekwondo training.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Confidence</h3>
+                    <p>Build self-belief, resilience, and personal growth as you progress through each belt rank.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Community</h3>
+                    <p>Join a supportive, welcoming environment with members who inspire and help each other grow.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Excellence</h3>
+                    <p>Strive for your highest potential under the guidance of certified International Taekwondo instructors.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+        
+        <!--Upcoming Events-->
+        <section class="upcoming-events">
+        <h2 class="section-title">UPCOMING EVENTS</h2>
+
+        <div class="events-container">
+            <!-- Event 1 -->
+            <div class="event-card card-1">
+            <div class="event-image-box">
+                <img src="https://via.placeholder.com/400x250" alt="Event 1">
+            </div>
+            <div class="event-details">
+                <p class="event-title">• Green Tip Grading</p>
+                <p class="event-date">Date : 25th of June, 2026</p>
+                <a href="#" class="view-more-btn">View More</a>
+            </div>
+            </div>
+
+            <!-- Event 2 -->
+            <div class="event-card card-2">
+            <div class="event-image-box">
+                <img src="https://via.placeholder.com/400x250" alt="Event 2">
+            </div>
+            <div class="event-details">
+                <p class="event-title">• Sparring Championship</p>
+                <p class="event-date">Date : 10th of July, 2026</p>
+                <a href="#" class="view-more-btn">View More</a>
+            </div>
+            </div>
+
+            <!-- Event 3 -->
+            <div class="event-card card-3">
+            <div class="event-image-box">
+                <img src="https://via.placeholder.com/400x250" alt="Event 3">
+            </div>
+            <div class="event-details">
+                <p class="event-title">• Black Belt Seminar</p>
+                <p class="event-date">Date : 15th of August, 2026</p>
+                <a href="#" class="view-more-btn">View More</a>
+            </div>
+            </div>
+        </div>
+        </section>
+
+            
 
         <!--Contact Form-->
 
         <!--Footer-->
+        <footer class="site-footer">
+            <div class="footer-container">
+                
+                <!-- Column 1: Info/About -->
+                <div class="footer-col">
+                    <h4 class="footer-heading">ITF Taekwondo</h4>
+                    <p class="footer-text">Building discipline, confidence, and community through traditional martial arts training.</p>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div class="footer-col">
+                    <h4 class="footer-heading">Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="join.html">Why Join Us</a></li>
+                        </ul>
+                </div>
+
+                <!-- Column 3: Contact Info -->
+                <div class="footer-col">
+                    <h4 class="footer-heading">Contact Us</h4>
+                        <p class="footer-text">Email: info@itftaekwondo.org</p>
+                        <p class="footer-text">Phone: (123) 456-7890</p>
+                        <p class="footer-text">Location: Main Dojang Hall</p>
+                </div>
+
+            </div>
+
+            <!-- Bottom Copyright -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 International Taekwondo Federation. All rights reserved.</p>
+            </div>
+        </footer>
 
     </body>
 
