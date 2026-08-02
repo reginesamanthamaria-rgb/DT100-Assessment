@@ -111,17 +111,17 @@ html{
 .hero-subtitle {
     display: block;
     font-family: "Carlito", sans-serif;
-    font-size: 0.9rem;
+    font-size: 1.25rem;
     font-weight: 700;
     letter-spacing: 3px;
-    color: #E53935;
+    color: #D62828;
     margin-bottom: 12px;
     text-transform: uppercase;
 }
 
 .hero-content h2 {
     font-family: "Cormorant Garamond", serif;
-    font-size: 3.2rem;
+    font-size: 3.5rem;
     font-weight: 700;
     line-height: 1.15;
     margin-bottom: 8px;
@@ -141,7 +141,7 @@ html{
     font-size: 0.95rem;
     display: inline-block;
     padding: 12px 32px;
-    background-color: #E53935;
+    background-color: #D62828;
     color: #ffffff;
     font-weight: 700;
     text-decoration: none;
@@ -529,7 +529,7 @@ html{
 }
 
 .footer-links a:hover {
-    color: #ef4444;
+    color: #D62828;
 }
 
 /* Bottom Bar */
